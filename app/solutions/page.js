@@ -8,8 +8,8 @@ export default function Solutions() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-teal-600 via-teal-500 to-cyan-500 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">Our Solutions</h1>
-          <p className="text-xl opacity-95">
+          <h1 className="text-4xl font-bold mb-4">Our Solutions</h1>
+          <p className="text-lg opacity-95">
             Three integrated products. One unified AI platform for autonomous building optimization.
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function Solutions() {
               to autonomously control your HVAC system in real-time.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              It learns your building’s unique thermal behavior and continuously optimizes setpoints,
+              It learns your building's unique thermal behavior and continuously optimizes setpoints,
               schedules, and equipment operation to minimize energy while maintaining comfort.
             </p>
             <ul className="space-y-3 text-gray-700">
@@ -171,7 +171,7 @@ export default function Solutions() {
             </ul>
           </div>
           <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-10 rounded-2xl shadow-lg">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Who It’s For</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Who It's For</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start gap-2">
                 <FiCheck className="text-teal-600 mt-1" />
@@ -209,7 +209,7 @@ export default function Solutions() {
       <section className="py-20 bg-teal-600 text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl font-bold mb-4">See All Three in Action</h2>
-          <p className="text-xl mb-8 opacity-95">
+          <p className="text-lg mb-8 opacity-95">
             Book a live demo to see how HVAC optimization, sensors, and ESG management work together.
           </p>
           <a
