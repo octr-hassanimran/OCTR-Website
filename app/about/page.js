@@ -38,9 +38,9 @@ export default function About() {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 via-teal-500 to-cyan-500 text-white py-20">
+      <section className="bg-gradient-to-r from-teal-600 via-teal-500 to-cyan-500 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-3">About OCTR Technologies</h1>
+          <h1 className="text-4xl font-bold mb-4">About OCTR Technologies</h1>
           <p className="text-lg opacity-95">
             Founded by global experts in AI, energy systems, and real estate.
             <br />
