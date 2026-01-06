@@ -23,9 +23,13 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-6">
           <Link href="/" className="text-gray-700 hover:text-teal-600 transition">Home</Link>
           <Link href="/about" className="text-gray-700 hover:text-teal-600 transition">About</Link>
+          <Link href="/solutions" className="text-gray-700 hover:text-teal-600 transition">Solutions</Link>
+          <Link href="/technology" className="text-gray-700 hover:text-teal-600 transition">Technology</Link>
+          <Link href="/case-studies" className="text-gray-700 hover:text-teal-600 transition">Case Studies</Link>
+          <Link href="/pricing" className="text-gray-700 hover:text-teal-600 transition">Pricing</Link>
           <Link href="/contact" className="bg-teal-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-teal-700 transition">Get Demo</Link>
         </div>
 
@@ -41,6 +45,10 @@ export default function Navbar() {
           <div className="px-4 py-4 space-y-3">
             <Link href="/" className="block text-gray-700 hover:text-teal-600">Home</Link>
             <Link href="/about" className="block text-gray-700 hover:text-teal-600">About</Link>
+            <Link href="/solutions" className="block text-gray-700 hover:text-teal-600">Solutions</Link>
+            <Link href="/technology" className="block text-gray-700 hover:text-teal-600">Technology</Link>
+            <Link href="/case-studies" className="block text-gray-700 hover:text-teal-600">Case Studies</Link>
+            <Link href="/pricing" className="block text-gray-700 hover:text-teal-600">Pricing</Link>
             <Link href="/contact" className="block bg-teal-600 text-white px-4 py-2 rounded text-center font-semibold">Get Demo</Link>
           </div>
         </div>
