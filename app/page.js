@@ -113,7 +113,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-teal-600 to-teal-700 text-white p-8 rounded-xl shadow-lg">
               <h3 className="text-2xl font-bold mb-4">HVAC Energy Optimizer</h3>
               <p className="mb-6 text-teal-100">
-                AI-powered autonomous control using reinforcement learning and physics-informed neural networks.
+                AI-powered autonomous control using deep reinforcement learning.
               </p>
               <ul className="space-y-3 mb-8 text-sm">
                 <li className="flex items-start gap-2">
